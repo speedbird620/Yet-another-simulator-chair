@@ -1,11 +1,11 @@
 // Program bespoke to the JoyStool
 // Arduino Micro or Leonardo
 //
+// jingel@skyracer.net
+//
 // 0.1 - First version
 // 0.2 - Added comments and configurable variable
 //
-// Skyracer Avionics
-// 2023-07-12
 //------------------------------------------------------------
 
 #include <Joystick.h> // https://github.com/gmarty2000-ARDUINO/arduino-JOYSTICK
