@@ -46,7 +46,7 @@ _PCB-adaptor for hall sensors._
 
 ## Step 2: Flight control assembly
 
-This is kit in plywood with prefabricated parts suited to mount on an IKEA chair called POÄNG. All you need are some hinges, brackets (3D-printed), screws, bicycle parts, patience and a screwdriver. A bill of material is provided as well as files for 3D-printing.
+This is kit in plywood with prefabricated parts suited to mount on an IKEA chair called [POÄNG](https://www.ikea.com/se/sv/cat/poaeng-serie-07472/). All you need are some hinges, brackets (3D-printed), screws, bicycle parts, patience and a screwdriver. A bill of material is provided as well as files for 3D-printing.
 
 ![image](https://github.com/speedbird620/JoyStool/assets/50543575/287bdebb-bac8-4201-b6a1-f34896845bf7)
 
