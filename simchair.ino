@@ -1,4 +1,4 @@
-// Program bespoke to the JoyStool
+// Program bespoke to the SimChair
 // Arduino Micro or Leonardo
 //
 // avionics@skyracer.net
