@@ -39,7 +39,8 @@ Please note: in the first prototype I used potentiometers which broke pretty muc
 
 To make things easier I have developed a bespoke PCB-adaptor between Arduino and electrical connectors as well as a bespoke PCB-adaptor for the hall sensors recommended in the bill of material. Eventually you will be able to order these PCB´s.
 
-![image](https://github.com/speedbird620/SimChair/assets/50543575/77c1adcf-99c7-4519-a93a-39b401b5d339)
+![image](https://github.com/speedbird620/SimChair/assets/50543575/a6a16799-d7f0-4dc4-8668-ee24fb8ae880)
+
 
 _PCB-adaptor for Arduino Leonardo or Arduino Micro._
 
