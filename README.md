@@ -31,9 +31,9 @@ The first part is an electronics and software package that will simulate a joyst
 The skill level required is an average glider pilot with limited soldering skill. After all this aren’t rocket science.
 
 The electronics and software package contains of:
-•	Design schematic (open source) for Arduino Leonardo or Arduino Micro (ATMEGA32U4)
-•	Software and libraries (open source)
-•	Bill of material for recommended components to order
+ - Design schematic (open source) for Arduino Leonardo or Arduino Micro (ATMEGA32U4)
+ - Software and libraries (open source)
+ - Bill of material for recommended components to order 
 
 Please note: in the first prototype I used potentiometers which broke pretty much instantly. In the second prototype I switched to hall sensors which is working excellent. So, if you are opting for potentiometers, please be aware of the potential limitations.
 
