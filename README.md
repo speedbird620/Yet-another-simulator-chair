@@ -15,13 +15,12 @@ _Iteration 2 of the JoyStool._
 The second iteration is utilising an Arduino Micro and hall sensors for the flight controls. Then an idea emerged of creating a more comfortable solution which can be reproduced larger numbers and how simulators can be a part of pilot training, especially for us who lives in a country that only allow flight from April to October.
 
 The requirements for the simulator:
-•	The parts shall be available in general stores (as far as possible)
-•	A simple yet durable construction
-•	Dual control
-•	Stick, rudder and airbrake
-•	Airbrake shall be able to be used as throttle and collector after minor alteration
-•	Tow cable release
-•	Position of pedals are adjustable
+ - The parts shall be available in general stores (as far as possible)
+ - A simple yet durable construction
+ - Dual controlStick, rudder and airbrake
+ - Airbrake shall be able to be used as throttle and collector after minor alteration
+ - Tow cable release
+ - Position of pedals are adjustable
 
 For most people the electronic hardware and software is the main obstacle. Therefore, the JoyStool projects is a twostep project: A, an electronics and software package; B, a flight control assembly designed to use an IKEA chair.
 
