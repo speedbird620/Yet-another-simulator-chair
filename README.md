@@ -12,7 +12,7 @@ After a few prototypes I landed in a solution where a control assembly is mounte
 
 _Iteration 2 of the JoyStool._
 
-The second iteration is utilising an Arduino Micro and hall sensors for the flight controls and the idea emerged of creating a more comfortable solution which can be reproduced larger numbers. Just think of how simulators can be a part of pilot training, especially for us who lives in a country that only allow flight from April to October.
+The second iteration is utilising an Arduino Micro and hall sensors for the flight controls. Then an idea emerged of creating a more comfortable solution which can be reproduced larger numbers and how simulators can be a part of pilot training, especially for us who lives in a country that only allow flight from April to October.
 
 The requirements for the simulator:
 •	The parts shall be available in general stores (as far as possible)
