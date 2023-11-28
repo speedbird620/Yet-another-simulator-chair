@@ -1,7 +1,7 @@
 # JoyStool
 This project is intended is sprung from the disapointment of using a joystick bought from an electronics store for 120€. Being unable to fly ass accurate I started to think outside the box: How can I do this better with an reasonable budget? This page is my answer to this question. 
 
-After a few prototypes I landed in a solution 
+After a few prototypes I landed in a solution where a control assembly is mounted on a chair. The prototyes prooved that adequate control was feasable with reasoable control dynamics. 
 
 a do-it-yourself flight simulator with physical flight controls. 
 
