@@ -1,4 +1,6 @@
-# Background to the JoyStool
+# The JoyStool
+
+## Background
 
 This project is sprung from the disapointment of using a joystick bought from an electronics store for 120€. Being unable to fly ass accurate I wanted started to think outside the box: How can I do this better with a reasonable budget? This page is my answer to this question. 
 
