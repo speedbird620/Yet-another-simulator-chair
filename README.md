@@ -2,7 +2,7 @@
 
 ## Background
 
-This project is sprung from the disapointment of using a joystick bought from an electronics store for 120€. Being unable to fly as accurate I wanted started to think outside the box: How can I do this better with a reasonable budget? This page is my answer to this question. 
+This project is sprung from the disapointment of using a joystick bought from an electronics store for 120€. Being unable to fly as accurate I wanted, I started to think outside the box: How can I do this better with a reasonable budget? This page is my answer to this question. 
 
 After a few prototypes I landed in a solution where a control assembly is mounted on a chair. The prototyes prooved that adequate control was feasable with surprisingly good flight control dynamics. 
 
