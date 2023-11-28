@@ -51,7 +51,7 @@ _PCB-adaptor for hall sensors._
 
 The flight control assembly is designed to fit onto a [POÄNG](https://www.ikea.com/se/sv/cat/poaeng-serie-07472/) from IKEA. The plan is to offer a kit with CNC-cutout parts from plywood and a bill of material for what to buy in the local hardware store (hinges, 3D-printed brackets, screws, bicycle parts etc.). All you need is some patience, screwdriver and a friend with a 3D-printer as the files needed for 3D-printing will also be provided.
 
-![image](https://github.com/speedbird620/SimChair/assets/50543575/287bdebb-bac8-4201-b6a1-f34896845bf7)
+![image](https://github.com/speedbird620/SimChair/assets/50543575/6a02d81a-945a-482b-8348-6228216a23c1)
 
 _The SimChair with the flight control assembly mounted to POÄNG. View from the side._
 
