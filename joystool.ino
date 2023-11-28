@@ -1,7 +1,7 @@
 // Program bespoke to the JoyStool
 // Arduino Micro or Leonardo
 //
-// jingel@skyracer.net
+// avionics@skyracer.net
 //
 // 0.1 - First version
 // 0.2 - Added comments and configurable variable
