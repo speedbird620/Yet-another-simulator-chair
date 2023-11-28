@@ -1,9 +1,13 @@
-# JoyStool
-This project is intended is sprung from the disapointment of using a joystick bought from an electronics store for 120€. Being unable to fly ass accurate I started to think outside the box: How can I do this better with an reasonable budget? This page is my answer to this question. 
+# Background to the JoyStool
 
-After a few prototypes I landed in a solution where a control assembly is mounted on a chair. The prototyes prooved that adequate control was feasable with reasoable control dynamics. 
+This project is sprung from the disapointment of using a joystick bought from an electronics store for 120€. Being unable to fly ass accurate I wanted started to think outside the box: How can I do this better with an reasonable budget? This page is my answer to this question. 
 
-a do-it-yourself flight simulator with physical flight controls. 
+After a few prototypes I landed in a solution where a control assembly is mounted on a chair. The prototyes prooved that adequate control was feasable with surprisingly good flight control dynamics. 
+
+![image](https://github.com/speedbird620/JoyStool/assets/50543575/214895bf-fdc9-41e7-b973-d6968128a447)
+Iteration 2 of the JoyStool.
+
+The second iteration is utilising an Arduino Micro and hall sensors for the flight controls and the idea of creating a more comfirtable solution which can be reproduced larger numbers. Just think of how simulators can be a part of pilot training, especially for us who lives in a country that only allow flight from april to october. 
 
 . For most people the electronic hardware and software is the main obstacle. Therefore the JoyStool projects is a two step project.
 
