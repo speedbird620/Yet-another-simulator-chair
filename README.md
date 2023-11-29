@@ -37,6 +37,8 @@ The electronics and software package contains of:
 
 Please note: in the first prototype I used potentiometers which broke pretty much instantly. In the second prototype I switched to hall sensors which is working excellent. So, if you are opting for potentiometers, please be aware of the potential limitations.
 
+I also want to give credis to [Giuseppe Martini](https://github.com/gmarty2000-ARDUINO) since I´m using his library: https://github.com/gmarty2000-ARDUINO/arduino-JOYSTICK/tree/master
+
 To make things easier I have developed a bespoke PCB-adaptor between Arduino and electrical connectors as well as a bespoke PCB-adaptor for the hall sensors recommended in the bill of material. Eventually you will be able to order these PCB´s.
 
 ![image](https://github.com/speedbird620/SimChair/assets/50543575/a6a16799-d7f0-4dc4-8668-ee24fb8ae880)
