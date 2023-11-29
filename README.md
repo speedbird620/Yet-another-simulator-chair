@@ -35,7 +35,7 @@ The electronics and software package contains of:
  - Software and libraries (open source)
  - Bill of material for recommended components to order 
 
-Please note: in the first prototype I used potentiometers which broke pretty much instantly. In the second prototype I switched to hall sensors which is working excellent. So, if you are opting for potentiometers, please be aware of the potential limitations.
+Please note: in the first prototype I used potentiometers which broke pretty much instantly. For the second prototype I switched to hall sensors which is working excellent. So, if you are opting for potentiometers, please be aware of the potential limitations.
 
 I also want to give credits to [Giuseppe Martini](https://github.com/gmarty2000-ARDUINO) since I´m using his library:
 https://github.com/gmarty2000-ARDUINO/arduino-JOYSTICK
