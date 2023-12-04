@@ -42,10 +42,9 @@ https://github.com/gmarty2000-ARDUINO/arduino-JOYSTICK
 
 To make things easier I have developed a bespoke PCB-adaptor between Arduino and electrical connectors as well as a bespoke PCB-adaptor for the hall sensors recommended in the bill of material. Eventually you will be able to order these PCB´s.
 
-![image](https://github.com/speedbird620/SimChair/assets/50543575/a6a16799-d7f0-4dc4-8668-ee24fb8ae880)
+![image](https://github.com/speedbird620/SimChair/assets/50543575/99b2e4e0-d527-49f6-aaac-82a2b6c3d6a2)
 
-
-_PCB-adaptor for Arduino Leonardo or Arduino Micro._
+_PCB-adaptor for Arduino Leonardo or Arduino Micro. The picture shows a version with Leonardo._
 
 ![image](https://github.com/speedbird620/SimChair/assets/50543575/d1bd2dae-a71d-4847-858a-a8d55bbca9c7)
 
