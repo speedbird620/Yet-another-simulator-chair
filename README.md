@@ -45,9 +45,9 @@ To make things easier I have developed a bespoke PCB-adaptor between Arduino and
 ![image](https://github.com/speedbird620/SimChair/assets/50543575/3c605845-c650-41a6-91f2-39089f4274d3)
 _PCB for adaptor Arduino and hall sensor._
 
-![image](https://github.com/speedbird620/SimChair/assets/50543575/effa1168-e370-431e-9319-563e9821f96c)
+![image](https://github.com/speedbird620/SimChair/assets/50543575/6affe71b-3b06-4f39-a636-f8d2b02d357a)
 
-_PCB-adaptor for Arduino Leonardo or Arduino Micro. The picture shows a PCB with Leonardo and switches (examples)._
+_PCB-adaptor for Arduino Leonardo or Arduino Micro. The picture shows a PCB with Leonardo, hall sensor and switches (examples)._
 
 ## Step 2: Flight control assembly
 
