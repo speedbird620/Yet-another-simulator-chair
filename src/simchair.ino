@@ -133,8 +133,7 @@ void loop()
   Joystick.setButton(12,(not digitalRead(12))); //     12                      D12             13       
   Joystick.setButton(13,(not digitalRead(13))); //     13                      D13             14       
   if (WheelBrakeOnAirbrake) //  Emulating the wheelbrake (the airbrake axis is used for the airbrakes)
-    {Joystick.setButton(14,(AirbrakeRatio > 0.95));
-    if (AirbrakeRatio > 0.95) {Serial.print("WheelBrake!");}}         //  If the airbrake is deployed more than 95%, then the wheelbrake is activated.
+    {Joystick.setButton(14,(AirbrakeRatio > 0.95));} //  If the airbrake is deployed more than 95%, then the wheelbrake is activated.
   
   //  Debugging
   //Serial.print("X: ");
