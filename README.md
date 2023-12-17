@@ -24,7 +24,7 @@ The requirements for the simulator:
 
 For most people the electronic hardware and software is the main obstacle. Therefore, the SimChair projects is a twostep project: A, an electronics and software package; B, a flight control assembly designed to use an IKEA chair.
 
-## Step 1: Electronics and magic stuff
+## Step 1: Electronics, "the magic stuff"
 
 The first part is an electronics and software package that will simulate a joystick using the built-in drivers in Windows. Either you can get the stuff in the bill of materials, put things together and apply the Arduino libraries. Or feel free to use it as a creative compass for your own build.
 
