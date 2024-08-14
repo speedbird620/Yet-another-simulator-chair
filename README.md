@@ -58,9 +58,11 @@ _The SimChair with the flight control assembly mounted to POÄNG. View from the 
 
 _View from back._
 
-## Step 2: Flight control assembly
+## Step 3: Installing the electronics
 
 In order to install the hall sensors, a few 3D printed items ha been designed. Please find the STL-files in the above repository. 
+
+More information will be provided as the first prototype will be assembled. Meanwile, you can print out the parts.
 
 ## Current status
 
