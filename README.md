@@ -58,8 +58,12 @@ _The SimChair with the flight control assembly mounted to POÄNG. View from the 
 
 _View from back._
 
+## Step 2: Flight control assembly
+
+In order to install the hall sensors, a few 3D printed items ha been designed. Please find the STL-files in the above repository. 
+
 ## Current status
 
-The electrical design has been set and parts are orderd. The first CNC-cutouts will be delivered within a week or two. 
+The electrical design has been verified. The first CNC-cutouts will be delivered ... soon. 
 
 So stay tuned ....
