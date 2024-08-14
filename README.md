@@ -62,6 +62,14 @@ _View from back._
 
 In order to install the hall sensors, a few 3D printed items ha been designed. Please find the STL-files in the above repository. 
 
+![image](https://github.com/user-attachments/assets/a8060ea2-dbb9-4f40-8c77-556ec7fdfe7c)
+
+_The holder for the Hall-sensor, arm, link and the barcket._
+
+![image](https://github.com/user-attachments/assets/664167cb-c9f0-4220-96c3-6ec773aa6a8e)
+
+_From the back side._
+
 ![image](https://github.com/user-attachments/assets/358a0d4d-c429-4f00-bae5-15e6008fd893)
 
 _A base for the PCB so you can test in on a workingbench._
