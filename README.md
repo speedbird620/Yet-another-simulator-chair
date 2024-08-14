@@ -62,6 +62,10 @@ _View from back._
 
 In order to install the hall sensors, a few 3D printed items ha been designed. Please find the STL-files in the above repository. 
 
+![image](https://github.com/user-attachments/assets/358a0d4d-c429-4f00-bae5-15e6008fd893)
+
+_A base for the PCB so you can test in on a workingbench._
+
 More information will be provided as the first prototype will be assembled. Meanwile, you can print out the parts.
 
 ## Current status
