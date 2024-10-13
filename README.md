@@ -60,11 +60,11 @@ _View from back._
 
 ## Step 3: Installing the electronics
 
-In order to install the hall sensors, a few 3D printed items ha been designed. Please find the STL-files in the above repository. 
+In order to install the hall sensors, a few 3D printed items has been developed. Please find the STL-files in the above repository. 
 
 ![image](https://github.com/user-attachments/assets/a8060ea2-dbb9-4f40-8c77-556ec7fdfe7c)
 
-_The holder for the Hall-sensor, arm, link and the bracket._
+_The holder for the Hall-sensor, arm, link and bracket._
 
 ![image](https://github.com/user-attachments/assets/664167cb-c9f0-4220-96c3-6ec773aa6a8e)
 
