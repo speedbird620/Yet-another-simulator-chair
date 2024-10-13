@@ -64,7 +64,7 @@ In order to install the hall sensors, a few 3D printed items ha been designed. P
 
 ![image](https://github.com/user-attachments/assets/a8060ea2-dbb9-4f40-8c77-556ec7fdfe7c)
 
-_The holder for the Hall-sensor, arm, link and the barcket._
+_The holder for the Hall-sensor, arm, link and the bracket._
 
 ![image](https://github.com/user-attachments/assets/664167cb-c9f0-4220-96c3-6ec773aa6a8e)
 
