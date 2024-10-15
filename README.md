@@ -78,6 +78,14 @@ More information will be provided as the first prototype will be assembled. Mean
 
 ## Current status
 
-The electrical design has been verified. The first CNC-cutouts will be delivered ... soon. 
+The electrical design has been verified. The first CNC-cutouts are produced.
+
+![image](https://github.com/user-attachments/assets/af9f7d71-a253-40db-b3a3-0c45151bbc9c)
+
+_The pieces are being cut out by a CNC milling machine._
+
+![image](https://github.com/user-attachments/assets/ed75745f-5fbc-412e-9d89-d8a4b2110255)
+
+_Assemby of the prorotype has started._
 
 So stay tuned ....
