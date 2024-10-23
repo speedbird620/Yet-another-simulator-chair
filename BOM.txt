@@ -1,3 +1,12 @@
+The non electronic stuff
+
+Description			Vendor	 	Art. No.	Ammount
+Hinge, 50x39 mm  Habo  6809  14
+BAll bearing  Biltema  41-404  2  6203-2RS, 17x40x12 mm
+
+
+Electronics
+
 Description			Vendor	 	Art. No.	Ammount
 Terminal block 3 ways		Farnell	 	2493670		12
 Terminal block 2 ways		Farnell	 	3810323		14
