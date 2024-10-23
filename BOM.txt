@@ -1,8 +1,8 @@
 The non electronic stuff
 
 Description		Vendor	 	Art. No.	Ammount
-Hinge, 50x39 mm  Habo  6809  14
-BAll bearing    Biltema  41-404  2  6203-2RS, 17x40x12 mm
+Hinge, 50x39 mm    Habo  6809  14
+BAll bearing      Biltema  41-404  2  6203-2RS, 17x40x12 mm
 
 
 Electronics
