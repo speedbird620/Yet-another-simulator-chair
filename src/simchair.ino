@@ -6,7 +6,7 @@
 // 0.1 - First version
 // 0.2 - Added comments and configurable variable
 // 0.3 - Added digital signals, now: 15 digital and 4 analog channels
-// 0.4 - Added a secondary joystick, now: 2 x (15 digital and 4 analog channels)
+// 0.4 - Added a secondary joysticvk, now: 2 x (15 digital and 4 analog channels)
 //
 // https://github.com/MHeironimus/ArduinoJoystickLibrary/tree/version-1.0
 // https://mheironimus.blogspot.com/2015/11/arduino-joystick-library.html
@@ -26,7 +26,7 @@ Joystick_ Joystick1(0x03, //hid report id
   false, //ry
   false, //rz
   false, //rudder
-  true, //airbrake
+  true, //Airbrake
   false, //throttle
   false, //brake
   false); //steering
@@ -42,7 +42,7 @@ Joystick_ Joystick2(0x04, //hid report id
   false, //ry
   false, //rz
   false, //rudder
-  true, //airbrake
+  true, //Airbrake
   false, //throttle
   false, //brake
   false); //steering
@@ -53,29 +53,17 @@ Joystick_ Joystick2(0x04, //hid report id
   bool ZAxisReverse = true;
   bool AirbrakeReverse = true;
   bool TrimReverse = false;
-  bool WheelBrakeOnAirbrake = false; //Set false if airbrake is used as throttle
+  bool WheelBrakeOnAirbrake = true; //Set false if Airbrake is used as throttle
 
   // Initialize internal variables
+  int XAxis = 0;
+  int YAxis = 0;
+  int ZAxis = 0;
+  int Trim = 0;
   int Airbrake = 0;
   int MaxAirbrake = 0;
   int MinAirbrake = 1024;
   float AirbrakeRatio = 0.0;
-  int XAxis = 0;
-  int MaxXAxis = 0;
-  int MinXAxis = 1024;
-  float XRatio = 0.0;
-  int YAxis = 0;
-  int MaxYAxis = 0;
-  int MinYAxis = 1024;  
-  float YRatio = 0.0;
-  int ZAxis = 0;
-  int MaxZAxis = 0;
-  int MinZAxis = 1024;
-  float ZRatio = 0.0;
-  int Trim = 0;
-  int MaxTrim = 0;
-  int MinTrim = 1024;
-  float TrimRatio = 0.0;
   
 void setup() 
   {
@@ -102,52 +90,43 @@ void setup()
 void loop() 
   {
   //  Reading analog signals
-  if (XAxisReverse) {XAxis = analogRead(A1);}             //  The input is normal (due to mounting of the sensor)
-    else {XAxis = 1024-analogRead(A1);}                   //  The input is reversed (due to mounting of the sensor)
 
-  if (YAxisReverse) {YAxis = analogRead(A2);}   //  The input is normal (due to mounting of the sensor)
-    else {YAxis = 1024-analogRead(A2);}       //  The input is reversed (due to mounting of the sensor)
+  XAxis = analogRead(A1);
+  if (XAxisReverse) {Joystick1.setXAxis(XAxis);}             //  The input is normal (due to mounting of the sensor)
+    else {Joystick1.setXAxis(1024-XAxis);}                   //  The input is reversed (due to mounting of the sensor)
+  Serial.print(", A1: ");
+  Serial.print(XAxis);
 
-  if (ZAxisReverse) {ZAxis = analogRead(A3);}             //  The input is normal (due to mounting of the sensor)
-    else {ZAxis = 1024-analogRead(A3);}                   //  The input is reversed (due to mounting of the sensor)
+  YAxis = analogRead(A2);
+  if (YAxisReverse) {Joystick1.setYAxis(YAxis);}             //  The input is normal (due to mounting of the sensor)
+    else {Joystick1.setYAxis(1024-YAxis);}                   //  The input is reversed (due to mounting of the sensor)
+  Serial.print(", A2: ");
+  Serial.print(YAxis);
 
-  if (AirbrakeReverse) {Airbrake = analogRead(A4);}                            //  The input is reversed due to mounting of the sensor
-  else {Airbrake = 1024-analogRead(A4);}                  //  The input is reversed due to mounting of the sensor
+  ZAxis = analogRead(A3);
+  if (ZAxisReverse) {Joystick1.setZAxis(ZAxis);}             //  The input is normal (due to mounting of the sensor)
+    else {Joystick1.setZAxis(1024-ZAxis);}                   //  The input is reversed (due to mounting of the sensor)
+  Serial.print(", A3: ");
+  Serial.print(ZAxis);
 
-  if (TrimReverse) {Trim = analogRead(A5);}                            //  The input is reversed due to mounting of the sensor
-  else {Trim = 1024-analogRead(A5);}                  //  The input is reversed due to mounting of the sensor
+  Trim = analogRead(A5);
+  if (TrimReverse) {Joystick2.setYAxis(Trim);}             //  The input is normal (due to mounting of the sensor)
+    else {Joystick2.setYAxis(1024-Trim);}                   //  The input is reversed (due to mounting of the sensor)
+  Serial.print(", A5: ");
+  Serial.print(Trim);
 
-  //  Adjusting the output in relation to the minimum and maximum input
-  // The X-axis
-  if (XAxis > MaxXAxis) {MaxXAxis = XAxis;}     //  Finding maximum input
-  if (XAxis < MinXAxis) {MinXAxis = XAxis;}     //  Finding minimum input
-  XRatio = ((float)XAxis-(float)MinXAxis)/((float)MaxXAxis - (float)MinXAxis);  // Calculating the current ratio
-  Joystick1.setXAxis(int(XRatio * 1024));        //  Setting the output to the joystick output
+  Airbrake = analogRead(A4);
+  if (Airbrake > MaxAirbrake) {MaxAirbrake = Airbrake;}  //  Finding out the max Airbrake value since boot
+  if (Airbrake < MinAirbrake) {MinAirbrake = Airbrake;}  //  Finding out the min Airbrake value since boot
+  AirbrakeRatio = ((float)Airbrake-(float)MinAirbrake)/((float)MaxAirbrake - (float)MinAirbrake);   // Calculating the degree of deployed Airbrake (throttle)
+  if (AirbrakeReverse) {Joystick2.setXAxis(Airbrake);}             //  The input is normal (due to mounting of the sensor)
+    else {Joystick2.setXAxis(1024-(Airbrake));}                   //  The input is reversed (due to mounting of the sensor)
+  if (WheelBrakeOnAirbrake) //  Emulating the wheelbrake (the Airbrake axis is used for the Airbrakes)
+    {Joystick1.setButton(14,(AirbrakeRatio > 0.99));
+    if (AirbrakeRatio > 0.99) {Serial.print("WheelBrake!");}}         //  If the Airbrake is deployed more than 95%, then the wheelbrake is activated.
 
-  // The Y-axis
-  if (YAxis > MaxYAxis) {MaxYAxis = YAxis;}     //  Finding maximum input
-  if (YAxis < MinYAxis) {MinYAxis = YAxis;}     //  Finding minimum input
-  YRatio = ((float)YAxis-(float)MinYAxis)/((float)MaxYAxis - (float)MinYAxis);  // Calculating the current ratio
-  Joystick1.setYAxis(int(YRatio * 1024));        //  Setting the output to the joystick output
-
-  // The Z-axis
-  if (ZAxis > MaxZAxis) {MaxZAxis = ZAxis;}     //  Finding maximum input
-  if (ZAxis < MinZAxis) {MinZAxis = ZAxis;}     //  Finding minimum input
-  ZRatio = ((float)ZAxis-(float)MinZAxis)/((float)MaxZAxis - (float)MinZAxis);  // Calculating the current ratio
-  Joystick1.setZAxis(int(ZRatio * 1024));        //  Setting the output to the joystick output
-
-  // The thottle a.k.a. airbrake
-  if (Airbrake > MaxAirbrake) {MaxAirbrake = Airbrake;}  //  Finding out the max airbrake value since boot
-  if (Airbrake < MinAirbrake) {MinAirbrake = Airbrake;}  //  Finding out the min airbrake value since boot
-  AirbrakeRatio = ((float)Airbrake-(float)MinAirbrake)/((float)MaxAirbrake - (float)MinAirbrake);   // Calculating the degree of deployed airbrake (throttle)
-  if (AirbrakeRatio < (10)) {Joystick2.setXAxis(int(0));}        //  Hysteresis to open the airbrake
-  else  {Joystick2.setXAxis(int(AirbrakeRatio * 1024));}       //  Setting the output to the joystick output
-
-  // The trim
-  if (Trim > MaxTrim) {MaxTrim = Trim;}  //  Finding out the max Trim value since boot
-  if (Trim < MinTrim) {MinTrim = Trim;}  //  Finding out the min Trim value since boot
-  TrimRatio = ((float)Trim-(float)MinTrim)/((float)MaxTrim - (float)MinTrim);   // Calculating the degree of deployed Trim 
-  Joystick2.setYAxis(int(TrimRatio * 1024));       //  Setting the output to the joystick output
+  Serial.print(", A4: ");
+  Serial.print(Airbrake);
 
   Joystick1.setThrottle(int(0));     //  Setting the output to the joystick output
   Joystick1.setRudder(int(0));       //  Setting the output to the joystick output
@@ -170,27 +149,6 @@ void loop()
   Joystick1.setButton(11,(not digitalRead(11))); //     11                      D11             12       
   Joystick1.setButton(12,(not digitalRead(12))); //     12                      D12             13       
   Joystick1.setButton(13,(not digitalRead(13))); //     13                      D13             14       
-  if (WheelBrakeOnAirbrake) //  Emulating the wheelbrake (the airbrake axis is used for the airbrakes)
-    {Joystick1.setButton(14,(AirbrakeRatio > 0.95));
-    if (AirbrakeRatio > 0.95) {Serial.print("WheelBrake!");}}         //  If the airbrake is deployed more than 95%, then the wheelbrake is activated.
   
-  //  Debugging
-  //Serial.print("X: ");
-  //Serial.print(XAxis);
-  //Serial.print(", XRatio: ");
-  //Serial.print(int(XRatio * 1024));
-  //Serial.print(", MaxX: ");
-  //Serial.print(MaxXAxis);
-  //Serial.print(", MinX: ");
-  //Serial.println(MinXAxis);
-  //Serial.print(", Y: ");
-  //Serial.print(int(YRatio * 1024));
-  //Serial.print(", Z: ");
-  //Serial.print(int(ZRatio * 1024));
-  //Serial.print(", A4: ");
-  //Serial.print(int(AirbrakeRatio * 1024));
-  //Serial.print(", A5: ");
-  //Serial.println(int(TrimRatio * 1024));
-
-  delay(50);
+  delay(20);
   }
