@@ -7,11 +7,11 @@
 // 0.2 - Added comments and configurable variable
 // 0.3 - Added digital signals, now: 15 digital and 4 analog channels
 // 0.4 - Added a secondary joysticvk, now: 2 x (15 digital and 4 analog channels)
+// 0.5 - Adjusted the wheel brake
 //
 // https://github.com/MHeironimus/ArduinoJoystickLibrary/tree/version-1.0
 // https://mheironimus.blogspot.com/2015/11/arduino-joystick-library.html
 //------------------------------------------------------------
-
 
 #include <Joystick.h> 
 
@@ -94,7 +94,7 @@ void loop()
   XAxis = analogRead(A1);
   if (XAxisReverse) {Joystick1.setXAxis(XAxis);}             //  The input is normal (due to mounting of the sensor)
     else {Joystick1.setXAxis(1024-XAxis);}                   //  The input is reversed (due to mounting of the sensor)
-  Serial.print(", A1: ");
+  Serial.print("A1: ");
   Serial.print(XAxis);
 
   YAxis = analogRead(A2);
@@ -123,10 +123,10 @@ void loop()
     else {Joystick2.setXAxis(1024-(Airbrake));}                   //  The input is reversed (due to mounting of the sensor)
   if (WheelBrakeOnAirbrake) //  Emulating the wheelbrake (the Airbrake axis is used for the Airbrakes)
     {Joystick1.setButton(14,(AirbrakeRatio > 0.99));
-    if (AirbrakeRatio > 0.99) {Serial.print("WheelBrake!");}}         //  If the Airbrake is deployed more than 95%, then the wheelbrake is activated.
+    if (AirbrakeRatio > 0.99) {Serial.print(", WheelBrake!, ");}}         //  If the Airbrake is deployed more than 95%, then the wheelbrake is activated.
 
   Serial.print(", A4: ");
-  Serial.print(Airbrake);
+  Serial.println(Airbrake);
 
   Joystick1.setThrottle(int(0));     //  Setting the output to the joystick output
   Joystick1.setRudder(int(0));       //  Setting the output to the joystick output
@@ -150,5 +150,5 @@ void loop()
   Joystick1.setButton(12,(not digitalRead(12))); //     12                      D12             13       
   Joystick1.setButton(13,(not digitalRead(13))); //     13                      D13             14       
   
-  delay(20);
+  delay(10);
   }
