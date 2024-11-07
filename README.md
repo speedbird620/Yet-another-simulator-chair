@@ -84,8 +84,22 @@ The electrical design has been verified. The first CNC-cutouts are produced.
 
 _The pieces are being cut out by a CNC milling machine._
 
-![image](https://github.com/user-attachments/assets/ed75745f-5fbc-412e-9d89-d8a4b2110255)
+![image](https://github.com/user-attachments/assets/ac2cbd20-f5dc-403f-8981-73960bd8cdea)
 
-_Assemby of the prorotype has started._
+
+![image](https://github.com/user-attachments/assets/a1bb0b4e-a280-4b20-b4ed-05d5c3fa40a0)
+
+
+![image](https://github.com/user-attachments/assets/34c02b7f-724e-455d-9eff-7e54d4cf1435)
+
+![image](https://github.com/user-attachments/assets/5a70ea52-f2ca-45bf-8daa-5c055da71a14)
+
+
+![image](https://github.com/user-attachments/assets/3106d9cd-0233-426b-a91e-73a00e648783)
+
+_Assembly for the rear pedals has been designed._
+
+
+
 
 So stay tuned ....
