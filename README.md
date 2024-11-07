@@ -84,10 +84,11 @@ The electrical design has been verified. The first CNC-cutouts are produced.
 
 _The pieces are being cut out by a CNC milling machine._
 
-![image](https://github.com/user-attachments/assets/ac2cbd20-f5dc-403f-8981-73960bd8cdea)
-
 
 ![image](https://github.com/user-attachments/assets/a1bb0b4e-a280-4b20-b4ed-05d5c3fa40a0)
+
+![image](https://github.com/user-attachments/assets/ac2cbd20-f5dc-403f-8981-73960bd8cdea)
+
 
 
 ![image](https://github.com/user-attachments/assets/34c02b7f-724e-455d-9eff-7e54d4cf1435)
