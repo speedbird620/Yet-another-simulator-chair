@@ -78,9 +78,9 @@ More information will be provided as the first prototype will be assembled. Mean
 
 ## Step 3: The printouts
 
-The STL-files has been renamed. Please fins them in the repository above.
+The STL-files has been renamed. Please find them in the repository above.
 
-![image](https://github.com/user-attachments/assets/71aebd8b-8dcc-43c1-a6e5-86328fa391b0)
+![image](https://github.com/user-attachments/assets/2232b4db-af97-4446-830b-79d78d8e8029)
 
 _An overview of the parts to print._
 
