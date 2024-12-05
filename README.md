@@ -76,6 +76,14 @@ _A base for the PCB so you can test in on a workingbench._
 
 More information will be provided as the first prototype will be assembled. Meanwile, you can print out the parts.
 
+## Step 3: The printouts
+
+The STL-files has been renamed. Please fins them in the repository above.
+
+![image](https://github.com/user-attachments/assets/71aebd8b-8dcc-43c1-a6e5-86328fa391b0)
+
+_An overview of the parts to print._
+
 ## Current status
 
 The electrical design has been verified. The first CNC-cutouts are produced.
