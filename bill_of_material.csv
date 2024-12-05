@@ -2,7 +2,10 @@ The non electronic stuff,,,,
 ,,,,
 Description,Vendor,Art. No.,Ammount,Comment
 "Hinge 1501, 50x39 mm ",Habo  ,6809,14,
-Ball bearing     ,Biltema  ,41-404  ,2,"6203-2RS, 17x40x12 mm"
+Ball bearing,Biltema,41-404,2,"6203-2RS, 17x40x12 mm"
+Terminal block 1,5 mmÂ²,Biltema,35-810,1
+Rubberbands, Biltema, 34-219,1
+
 ,,,,
 ,,,,
 Electronics,,,,
@@ -16,10 +19,10 @@ Tyerminal plug 2 ways,Farnell,3810196,14,
 "PCB Receptacle, 12 pins",Farnell,1593465,1, 
 "PCB Receptacle, 8 pins",Farnell,1593463,2, 
 "PCB Receptacle, 6 pins",Farnell,1668352,1, 
-Wire ferrule 1 mm²,Farnell,841201,1,
+Wire ferrule 1 mmÂ²,Farnell,841201,1,
 "SKX, 2 x 0.75mm2, 25m",Biltema,35-433,1, 
 "RDO, 3 x 1mm2, 10m",Biltema,44-838,1,
-"Hall Effect Sensor, 60°",Farnell,2319671,4,
+"Hall Effect Sensor, 60Â°",Farnell,2319671,4,
 Leonardo,Farnell,2133070,1,
 USB micro cable,Farnell,2907930,1,
-"Capacitor, 10 µF, 16 V, 0805",Farnell,3013453,4,
+"Capacitor, 10 ÂµF, 16 V, 0805",Farnell,3013453,4,
