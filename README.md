@@ -60,8 +60,10 @@ _The chair with the flight control assembly mounted to POÄNG. View from the sid
 
 _View from back._
 
+_Below are some of the mounting instructions._
+
 ![image](https://github.com/user-attachments/assets/be621b90-ee1f-48f5-9a71-120fffeb91e8)
-![image](https://github.com/user-attachments/assets/57bdb6a8-3b86-424a-bfed-dd0398a4ea79)
+![image](https://github.com/user-attachments/assets/0066c525-5ac4-47df-8fc4-14b8e6680873)
 ![image](https://github.com/user-attachments/assets/aac32c1b-e04c-422a-afda-2fa244be8f5b)
 
 
