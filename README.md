@@ -64,7 +64,7 @@ _View from back._
 _Below are some of the mounting instructions._
 
 ![image](https://github.com/user-attachments/assets/f4c4fd63-ba61-429a-8b03-78ad15a9b609)
-![image](https://github.com/user-attachments/assets/be621b90-ee1f-48f5-9a71-120fffeb91e8)
+![image](https://github.com/user-attachments/assets/4ba0644f-8edb-4e2f-8bd6-7cef5fda46a1)
 ![image](https://github.com/user-attachments/assets/0066c525-5ac4-47df-8fc4-14b8e6680873)
 ![image](https://github.com/user-attachments/assets/aac32c1b-e04c-422a-afda-2fa244be8f5b)
 
