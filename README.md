@@ -1,4 +1,4 @@
-# The SimChair
+# Yet another simulator chair
 
 ## Background
 
