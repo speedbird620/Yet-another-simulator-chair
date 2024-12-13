@@ -48,15 +48,22 @@ _PCB-adaptor for Arduino Leonardo or Arduino Micro. The picture shows a PCB with
 
 ## Step 2: Flight control assembly
 
-The flight control assembly is designed to fit onto a [POÄNG](https://www.ikea.com/se/sv/cat/poaeng-serie-07472/) from IKEA. The plan is to offer a kit with CNC-cutout parts from plywood and a bill of material for what to buy in the local hardware store (hinges, 3D-printed brackets, screws, bicycle parts etc.). All you need is some patience, screwdriver and a friend with a 3D-printer as the files needed for 3D-printing will also be provided.
+The flight control assembly is designed to fit onto a [POÄNG](https://www.ikea.com/se/sv/cat/poaeng-serie-07472/) from IKEA. Please see the blue prints in the DXF-folder in the file repository above for the pieces to cut out. Above you will also find a list of material to buy in the local hardware store (hinges, washers, nuts, screws, bicycle parts etc.)
 
-![image](https://github.com/speedbird620/SimChair/assets/50543575/4371f385-88a6-4e2a-ac42-8caab18e3206)
+We plan to offer a kit with CNC-cutout parts from plywood but this is progress right now.
 
-_The SimChair with the flight control assembly mounted to POÄNG. View from the side._
+![image](https://github.com/user-attachments/assets/efb08bbc-0c84-4f5d-8846-0a5b164729b6)
 
-![image](https://github.com/speedbird620/SimChair/assets/50543575/deb65812-16e1-408d-839f-00e0176702fd)
+_The chair with the flight control assembly mounted to POÄNG. View from the side._
+
+![image](https://github.com/user-attachments/assets/32235e13-b1d1-47c4-abeb-899849b73cd0)
 
 _View from back._
+
+![image](https://github.com/user-attachments/assets/be621b90-ee1f-48f5-9a71-120fffeb91e8)
+![image](https://github.com/user-attachments/assets/57bdb6a8-3b86-424a-bfed-dd0398a4ea79)
+![image](https://github.com/user-attachments/assets/aac32c1b-e04c-422a-afda-2fa244be8f5b)
+
 
 ## Step 3: Installing the electronics
 
