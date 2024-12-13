@@ -85,12 +85,6 @@ _From the back side._
 
 _A base for the PCB so you can test in on a workingbench._
 
-More information will be provided as the first prototype will be assembled. Meanwile, you can print out the parts.
-
-## Step 3: The printouts
-
-The STL-files has been renamed. Please find them in the repository above.
-
 ![image](https://github.com/user-attachments/assets/2232b4db-af97-4446-830b-79d78d8e8029)
 
 _An overview of the parts to print._
