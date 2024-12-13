@@ -10,7 +10,7 @@ After a few prototypes I landed in a solution where a control assembly is mounte
 
 ![image](https://github.com/speedbird620/SimChair/assets/50543575/214895bf-fdc9-41e7-b973-d6968128a447)
 
-_Iteration 2 of the SimChair._
+_Iteration 2 of the chair._
 
 The second iteration is utilising an Arduino Micro and hall sensors for the flight controls. Then an idea emerged of creating a more comfortable solution which can be reproduced larger numbers and how simulators can be a part of pilot training, especially for us who lives in a country that only allow flight from April to October.
 
@@ -22,7 +22,7 @@ The requirements for the simulator:
  - Tow cable release
  - Position of pedals are adjustable
 
-For most people the electronic hardware and software is the main obstacle. Therefore, the SimChair projects is a twostep project: A, an electronics and software package; B, a flight control assembly designed to use an IKEA chair.
+For most people the electronic hardware and software is the main obstacle. Therefore, the chair projects is a twostep project: A, an electronics and software package; B, a flight control assembly designed to use an IKEA chair.
 
 ## Step 1: Electronics, "the magic stuff"
 
