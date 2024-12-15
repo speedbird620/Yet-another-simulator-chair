@@ -2,7 +2,7 @@
 
 ## Abstract 
 
-This is an open source simulator project where an IKEA chair has been modified to a dual control joystick. The main purpose is to offer a possibility to train students in for example Condor flight simulatior from the initial flights to the art thermalling and cross country. All in DIY-style for the reasonable handy individual.
+This is an open source simulator project where an IKEA chair has been modified into a dual control joystick. The main purpose is to offer a possibility to train students in for example Condor flight simulatior. From the basic flight training, to fine tuning the art thermalling and cross country. All in reach for the reasonable DIY-handy individual.
 
 ## Background
 
