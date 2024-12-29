@@ -55,7 +55,7 @@ _PCB-adaptor for Arduino Leonardo or Arduino Micro. The picture shows a PCB with
 
 The flight control assembly is designed to fit onto a [POÄNG](https://www.ikea.com/se/sv/cat/poaeng-serie-07472/) from IKEA. Please see the blue prints in the DXF-folder in the file repository above for the pieces to cut out. Above you will also find a list of material to buy in the local hardware store (hinges, washers, nuts, screws, bicycle parts etc.)
 
-We plan to offer a kit with CNC-cutout parts from plywood but this is progress right now.
+We plan to offer a kit with CNC-cutout parts from plywood but this is progress right now. Meanwhile, if you have access to a CNC-machine or a laser cutter, please feel free to download the DXF-files and make simulator youself.
 
 ![image](https://github.com/user-attachments/assets/efb08bbc-0c84-4f5d-8846-0a5b164729b6)
 
