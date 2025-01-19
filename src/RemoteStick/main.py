@@ -13,11 +13,12 @@ from adafruit_hid.keycode import Keycode
 
 keyboard = Keyboard(usb_hid.devices)
 
-"""
-pin0 = digitalio.DigitalInOut(board.D0)
-pin0.switch_to_input(pull=digitalio.Pull.UP)
-"""
+pixel = neopixel.NeoPixel(board.NEOPIXEL, 1)
 
+then = 0.0
+r = 255
+g = 0
+b = 0
 
 pin0 = digitalio.DigitalInOut(board.D0)
 pin0.direction = digitalio.Direction.INPUT
@@ -80,15 +81,28 @@ pin9_flank = False
 pin9_keycode = Keycode.NINE
 
 pin10 = digitalio.DigitalInOut(board.D10)
-pin10.direction = digitalio.Direction.INPUT
-pin10.pull = digitalio.Pull.UP
+pin10.switch_to_input(pull=digitalio.Pull.UP)
+#pin10.direction = digitalio.Direction.INPUT
+#pin10.pull = digitalio.Pull.UP
+
 pin10_flank = False
 pin10_keycode = Keycode.EQUALS
 
-
-pixel = neopixel.NeoPixel(board.NEOPIXEL, 1)
-
 while True:
+    """ 
+    print(
+        "0: ", pin0.value, 
+        " 1: ", pin1.value, 
+        " 2: ", pin2.value, 
+        " 3: ", pin3.value, 
+        " 4: ", pin4.value, 
+        " 5: ", pin5.value, 
+        " 6: ", pin6.value, 
+        " 7: ", pin7.value, 
+        " 8: ", pin8.value, 
+        " 9: ", pin9.value, 
+        " 10: ", pin10.value)
+    """
     if not pin0.value and pin0_flank:
         keyboard.press(Keycode.SHIFT, pin0_keycode)
         pin0_flank = False
@@ -165,7 +179,21 @@ while True:
     if pin10.value and not pin10_flank:
         keyboard.release(Keycode.SHIFT, pin10_keycode)
         pin10_flank = True
-
+    
+    now = time.monotonic()
+    
+    if now > (then + 1.5):
+        b_temp = b
+        b = g
+        g = r
+        r = b_temp
+        pixel.fill((r, g, b))
+        then = now
+    elif now > (then + 1.0):
+        pixel.fill((0, 0, 0))
+    elif now > (then + 0.5):
+        pixel.fill((r, g, b))
+        
 
     #print(pin3.value)
     #time.sleep(0.5)
