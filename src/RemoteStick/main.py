@@ -1,5 +1,6 @@
 # QT Pi Remote stick
 # 0.1 - first revision
+# 0.2 - added blink
 
 import board
 import digitalio
@@ -16,9 +17,6 @@ keyboard = Keyboard(usb_hid.devices)
 pixel = neopixel.NeoPixel(board.NEOPIXEL, 1)
 
 then = 0.0
-r = 255
-g = 0
-b = 0
 
 pin0 = digitalio.DigitalInOut(board.D0)
 pin0.direction = digitalio.Direction.INPUT
@@ -182,20 +180,22 @@ while True:
     
     now = time.monotonic()
     
-    if now > (then + 1.5):
-        b_temp = b
-        b = g
-        g = r
-        r = b_temp
-        pixel.fill((r, g, b))
+    if not pin0_flank or not pin1_flank or not pin2_flank or not pin3_flank or not pin4_flank or not pin5_flank or not pin6_flank or not pin7_flank or not pin8_flank or not pin9_flank or not pin10_flank:
+        pixel.fill((255, 0, 0))
         then = now
+    elif not pin0_flank and pin1_flank and pin2_flank and pin3_flank and pin4_flank and pin5_flank and pin6_flank and pin7_flank and pin8_flank and pin9_flank and pin10_flank:
+        pixel.fill((0, 0, 0))
+    elif now > (then + 2):
+        pixel.fill((0, 0, 0))
+        then = now
+    elif now > (then + 1.5):
+        pixel.fill((0, 0, 255))
     elif now > (then + 1.0):
         pixel.fill((0, 0, 0))
     elif now > (then + 0.5):
-        pixel.fill((r, g, b))
+        pixel.fill((0, 255, 0))
         
-
-    #print(pin3.value)
     #time.sleep(0.5)
+
 
 
