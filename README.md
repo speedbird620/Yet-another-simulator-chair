@@ -111,6 +111,12 @@ _The PCB-adaptor mounted on the chair._
 
 _Inital flight trial._
 
+![image](https://github.com/user-attachments/assets/32d06e31-b2c2-4bcd-b6aa-fb3a2d23fd5b)
 
+_Second prototype._
+
+![image](https://github.com/user-attachments/assets/64b27593-74fa-4f23-bb44-4af5eba979f6)
+
+_Airbrake and tow release of second prototype._
 
 So stay tuned ....
