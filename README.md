@@ -12,9 +12,8 @@ I started to think outside the box: How can I do this better with a reasonable b
 
 After a few prototypes I landed in a solution where a control assembly is mounted on a chair. The prototypes proved that adequate control was feasible with surprisingly good flight control dynamics: you tend to forget that you are in a simulator when using a VR-headset. 
 
-![image](https://github.com/speedbird620/SimChair/assets/50543575/214895bf-fdc9-41e7-b973-d6968128a447)
-
-_Iteration 2 of the chair._
+<img width="1016" height="752" alt="image" src="https://github.com/user-attachments/assets/b5d94185-3a58-4a31-8407-589cfec274f9" />
+_The first example in the prototype series are being built._
 
 The second iteration is utilising an Arduino Micro and hall sensors for the flight controls. Then an idea emerged of creating a more comfortable solution which can be reproduced larger numbers and how simulators can be a part of pilot training, especially for us who lives in a country that only allow flight from April to October.
 
@@ -42,7 +41,7 @@ Prototype series sn 003 - 010:
 - sn 009: kit is up for grabs
 - sn 010: kit is up for grabs
 
-_The first example in the prototype series are being built._
+_The assembly process of sn 003. For pictures on a sort of a timeline, se assembly.pfd above._
 <img width="481" height="854" alt="image" src="https://github.com/user-attachments/assets/f163b148-2dcc-4f8e-91e0-5734e16dccc2" />
 <img width="305" height="532" alt="image" src="https://github.com/user-attachments/assets/2284d8a0-796f-483f-a077-d60aafe0333a" />
 <img width="789" height="510" alt="image" src="https://github.com/user-attachments/assets/803f7f0f-4ac7-4361-8a9e-5502e29e9eb2" />
@@ -51,52 +50,57 @@ _The first example in the prototype series are being built._
 <img width="894" height="545" alt="image" src="https://github.com/user-attachments/assets/eb69cfd6-8544-4f13-b565-c3377dea410e" />
 <img width="637" height="517" alt="image" src="https://github.com/user-attachments/assets/52d85333-31de-4802-9318-8238fa97386b" />
 
-_Inital flight trial with the first prototype._
+_Second prototype, sn 002._
 
 ![image](https://github.com/user-attachments/assets/32d06e31-b2c2-4bcd-b6aa-fb3a2d23fd5b)
 
-_Second prototype._
+
+_Airbrake and tow release of second prototype, sn 002._
 
 ![image](https://github.com/user-attachments/assets/64b27593-74fa-4f23-bb44-4af5eba979f6)
 
-_Airbrake and tow release of second prototype._
 
-## Step 1: Electronics, "the magic stuff"
+## Electronics, "the magic stuff"
 
-The first part is an electronics and software package that will simulate a joystick using the built-in drivers in Windows. Either you can get the stuff in the bill of materials, put things together and apply the Arduino libraries. Or feel free to use it as a creative compass for your own build.
+The electronics and software package that will simulate a joystick using the built-in drivers in Windows. Either you can get the stuff in the bill of materials, put things together and apply the Arduino libraries. Or feel free to use it as a creative compass for your own build.
 
-The skill level required is an average glider pilot with limited soldering skill. After all this aren’t rocket science.
+The skill level required is an average glider pilot with limited soldering skill. After all this aren’t rocket science, just simulator sience.
 
 The electronics and software package contains of:
  - Design schematic (open source) for Arduino Leonardo or Arduino Micro (ATMEGA32U4)
  - Software and libraries (open source)
  - Bill of material for recommended components to order 
 
-Please note: in the first prototype I used potentiometers which broke pretty much instantly. For the second prototype I switched to hall sensors which is working excellent. So, if you are opting for potentiometers, please be aware of the potential limitations.
+Please note: firstI used potentiometers which broke pretty much instantly. Since then hall sensors are used which works excellent. So, if you are opting for potentiometers, please be aware of the potential limitations.
 
 To make things easier I have developed a bespoke PCB-adaptor between Arduino and electrical connectors as well as a bespoke PCB-adaptor for the hall sensors recommended in the bill of material. Eventually you will be able to order these PCB´s.
 
-![image](https://github.com/speedbird620/SimChair/assets/50543575/3c605845-c650-41a6-91f2-39089f4274d3)
-
 _PCB for adaptor Arduino and hall sensor._
 
-![image](https://github.com/speedbird620/SimChair/assets/50543575/6affe71b-3b06-4f39-a636-f8d2b02d357a)
+![image](https://github.com/speedbird620/SimChair/assets/50543575/3c605845-c650-41a6-91f2-39089f4274d3)
+
 
 _PCB-adaptor for Arduino Leonardo or Arduino Micro. The picture shows a PCB with Leonardo, hall sensor and switches (examples)._
 
-## Step 2: Flight control assembly
+![image](https://github.com/speedbird620/SimChair/assets/50543575/6affe71b-3b06-4f39-a636-f8d2b02d357a)
+
+
+## Flight control assembly
 
 The flight control assembly is designed to fit onto a [POÄNG](https://www.ikea.com/se/sv/cat/poaeng-serie-07472/) from IKEA. Please see the blue prints in the DXF-folder in the file repository above for the pieces to cut out. Above you will also find a list of material to buy in the local hardware store (hinges, washers, nuts, screws, bicycle parts etc.)
 
 We plan to offer a kit with CNC-cutout parts from plywood but this is progress right now. Meanwhile, if you have access to a CNC-machine or a laser cutter, please feel free to download the DXF-files and make simulator youself.
 
-![image](https://github.com/user-attachments/assets/efb08bbc-0c84-4f5d-8846-0a5b164729b6)
 
 _The chair with the flight control assembly mounted to POÄNG. View from the side._
 
-![image](https://github.com/user-attachments/assets/32235e13-b1d1-47c4-abeb-899849b73cd0)
+![image](https://github.com/user-attachments/assets/efb08bbc-0c84-4f5d-8846-0a5b164729b6)
+
 
 _View from back._
+
+![image](https://github.com/user-attachments/assets/32235e13-b1d1-47c4-abeb-899849b73cd0)
+
 
 _Below are some of the mounting instructions._
 
@@ -106,24 +110,29 @@ _Below are some of the mounting instructions._
 ![image](https://github.com/user-attachments/assets/aac32c1b-e04c-422a-afda-2fa244be8f5b)
 
 
-## Step 3: Installing the electronics
+Installing the electronics
 
 In order to install the hall sensors, a few 3D printed items has been developed. Please find the STL-files in the above repository. 
 
-![image](https://github.com/user-attachments/assets/a8060ea2-dbb9-4f40-8c77-556ec7fdfe7c)
 
 _The holder for the Hall-sensor, arm, link and bracket._
 
-![image](https://github.com/user-attachments/assets/664167cb-c9f0-4220-96c3-6ec773aa6a8e)
+![image](https://github.com/user-attachments/assets/a8060ea2-dbb9-4f40-8c77-556ec7fdfe7c)
+
 
 _From the back side._
 
-![image](https://github.com/user-attachments/assets/358a0d4d-c429-4f00-bae5-15e6008fd893)
+![image](https://github.com/user-attachments/assets/664167cb-c9f0-4220-96c3-6ec773aa6a8e)
+
 
 _A base for the PCB so you can test in on a workingbench._
 
-![image](https://github.com/user-attachments/assets/2232b4db-af97-4446-830b-79d78d8e8029)
+![image](https://github.com/user-attachments/assets/358a0d4d-c429-4f00-bae5-15e6008fd893)
+
 
 _An overview of the parts to print._
+
+![image](https://github.com/user-attachments/assets/2232b4db-af97-4446-830b-79d78d8e8029)
+
 
 So stay tuned ....
