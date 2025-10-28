@@ -13,6 +13,7 @@ I started to think outside the box: How can I do this better with a reasonable b
 After a few prototypes I landed in a solution where a control assembly is mounted on a chair. The prototypes proved that adequate control was feasible with surprisingly good flight control dynamics: you tend to forget that you are in a simulator when using a VR-headset. 
 
 <img width="1016" height="752" alt="image" src="https://github.com/user-attachments/assets/b5d94185-3a58-4a31-8407-589cfec274f9" />
+
 _The first example in the prototype series are being built._
 
 The second iteration is utilising an Arduino Micro and hall sensors for the flight controls. Then an idea emerged of creating a more comfortable solution which can be reproduced larger numbers and how simulators can be a part of pilot training, especially for us who lives in a country that only allow flight from April to October.
