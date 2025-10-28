@@ -96,16 +96,27 @@ _An overview of the parts to print._
 ## Current status
 
 The list of built YAS-chairs:
+
 sn 001: ÖSFK at ESSZ, first prototype
+
 sn 002: Private outside Långtora, second prototype
+
 Prototype series sn 003 - 010:
+
 sn 003: Swedish Soaring Federation, Ålleberg
+
 sn 004: Private, Forssa
+
 sn 005: Private, Forssa
+
 sn 006: Private, Forssa
+
 sn 007: Private, Ludvika
+
 sn 008: kit is for sale
+
 sn 009: kit is for sale
+
 sn 010: kit is for sale
 
 _The first example in the prototype series are being built._
