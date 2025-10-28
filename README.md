@@ -95,21 +95,16 @@ _An overview of the parts to print._
 
 ## Current status
 
-The electrical design has been verified. The first CNC-cutouts are produced.
+_The first example in the prototype series are being built._
+<img width="481" height="854" alt="image" src="https://github.com/user-attachments/assets/f163b148-2dcc-4f8e-91e0-5734e16dccc2" />
+<img width="305" height="532" alt="image" src="https://github.com/user-attachments/assets/2284d8a0-796f-483f-a077-d60aafe0333a" />
+<img width="789" height="510" alt="image" src="https://github.com/user-attachments/assets/803f7f0f-4ac7-4361-8a9e-5502e29e9eb2" />
+<img width="307" height="414" alt="image" src="https://github.com/user-attachments/assets/6d37900c-4a71-4775-94f1-4e7d66f5faa3" />
+<img width="306" height="551" alt="image" src="https://github.com/user-attachments/assets/60f32578-a64f-41f7-9070-bca3719f4902" />
+<img width="894" height="545" alt="image" src="https://github.com/user-attachments/assets/eb69cfd6-8544-4f13-b565-c3377dea410e" />
+<img width="637" height="517" alt="image" src="https://github.com/user-attachments/assets/52d85333-31de-4802-9318-8238fa97386b" />
 
-![image](https://github.com/user-attachments/assets/af9f7d71-a253-40db-b3a3-0c45151bbc9c)
-
-_The pieces are being cut out by a CNC milling machine._
-
-![image](https://github.com/user-attachments/assets/a1bb0b4e-a280-4b20-b4ed-05d5c3fa40a0)
-
-_The PCB-adaptor mounted on the chair._
-
-
-
-![image](https://github.com/user-attachments/assets/5a70ea52-f2ca-45bf-8daa-5c055da71a14)
-
-_Inital flight trial._
+_Inital flight trial with the first prototype._
 
 ![image](https://github.com/user-attachments/assets/32d06e31-b2c2-4bcd-b6aa-fb3a2d23fd5b)
 
