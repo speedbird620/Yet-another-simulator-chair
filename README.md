@@ -26,7 +26,40 @@ The requirements for the simulator:
  - Tow cable release
  - Position of pedals are adjustable
 
-For most people the electronic hardware and software is the main obstacle. Therefore, the chair projects is a twostep project: A, an electronics and software package; B, a flight control assembly designed to use an IKEA chair.
+## Current status of the project
+
+The list of built YAS-chairs:
+- sn 001: ÖSFK at ESSZ, first prototype
+- sn 002: Private outside Långtora, second prototype
+
+Prototype series sn 003 - 010:
+- sn 003: Swedish Soaring Federation, Ålleberg
+- sn 004: Private, Forssa
+- sn 005: Private, Forssa
+- sn 006: Private, Forssa
+- sn 007: Private, Ludvika
+- sn 008: kit is up for grabs
+- sn 009: kit is up for grabs
+- sn 010: kit is up for grabs
+
+_The first example in the prototype series are being built._
+<img width="481" height="854" alt="image" src="https://github.com/user-attachments/assets/f163b148-2dcc-4f8e-91e0-5734e16dccc2" />
+<img width="305" height="532" alt="image" src="https://github.com/user-attachments/assets/2284d8a0-796f-483f-a077-d60aafe0333a" />
+<img width="789" height="510" alt="image" src="https://github.com/user-attachments/assets/803f7f0f-4ac7-4361-8a9e-5502e29e9eb2" />
+<img width="307" height="414" alt="image" src="https://github.com/user-attachments/assets/6d37900c-4a71-4775-94f1-4e7d66f5faa3" />
+<img width="306" height="551" alt="image" src="https://github.com/user-attachments/assets/60f32578-a64f-41f7-9070-bca3719f4902" />
+<img width="894" height="545" alt="image" src="https://github.com/user-attachments/assets/eb69cfd6-8544-4f13-b565-c3377dea410e" />
+<img width="637" height="517" alt="image" src="https://github.com/user-attachments/assets/52d85333-31de-4802-9318-8238fa97386b" />
+
+_Inital flight trial with the first prototype._
+
+![image](https://github.com/user-attachments/assets/32d06e31-b2c2-4bcd-b6aa-fb3a2d23fd5b)
+
+_Second prototype._
+
+![image](https://github.com/user-attachments/assets/64b27593-74fa-4f23-bb44-4af5eba979f6)
+
+_Airbrake and tow release of second prototype._
 
 ## Step 1: Electronics, "the magic stuff"
 
@@ -92,40 +125,5 @@ _A base for the PCB so you can test in on a workingbench._
 ![image](https://github.com/user-attachments/assets/2232b4db-af97-4446-830b-79d78d8e8029)
 
 _An overview of the parts to print._
-
-## Current status
-
-The list of built YAS-chairs:
-- sn 001: ÖSFK at ESSZ, first prototype
-- sn 002: Private outside Långtora, second prototype
-
-Prototype series sn 003 - 010:
-- sn 003: Swedish Soaring Federation, Ålleberg
-- sn 004: Private, Forssa
-- sn 005: Private, Forssa
-- sn 006: Private, Forssa
-- sn 007: Private, Ludvika
-- sn 008: kit is up for grabs
-- sn 009: kit is up for grabs
-- sn 010: kit is up for grabs
-
-_The first example in the prototype series are being built._
-<img width="481" height="854" alt="image" src="https://github.com/user-attachments/assets/f163b148-2dcc-4f8e-91e0-5734e16dccc2" />
-<img width="305" height="532" alt="image" src="https://github.com/user-attachments/assets/2284d8a0-796f-483f-a077-d60aafe0333a" />
-<img width="789" height="510" alt="image" src="https://github.com/user-attachments/assets/803f7f0f-4ac7-4361-8a9e-5502e29e9eb2" />
-<img width="307" height="414" alt="image" src="https://github.com/user-attachments/assets/6d37900c-4a71-4775-94f1-4e7d66f5faa3" />
-<img width="306" height="551" alt="image" src="https://github.com/user-attachments/assets/60f32578-a64f-41f7-9070-bca3719f4902" />
-<img width="894" height="545" alt="image" src="https://github.com/user-attachments/assets/eb69cfd6-8544-4f13-b565-c3377dea410e" />
-<img width="637" height="517" alt="image" src="https://github.com/user-attachments/assets/52d85333-31de-4802-9318-8238fa97386b" />
-
-_Inital flight trial with the first prototype._
-
-![image](https://github.com/user-attachments/assets/32d06e31-b2c2-4bcd-b6aa-fb3a2d23fd5b)
-
-_Second prototype._
-
-![image](https://github.com/user-attachments/assets/64b27593-74fa-4f23-bb44-4af5eba979f6)
-
-_Airbrake and tow release of second prototype._
 
 So stay tuned ....
