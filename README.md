@@ -38,7 +38,7 @@ Prototype series sn 003 - 010:
 - sn 005: Private, Forssa
 - sn 006: Private, Forssa
 - sn 007: Private, Ludvika
-- sn 008: kit is up for grabs
+- sn 008: Borås Segelflygklubb
 - sn 009: kit is up for grabs
 - sn 010: kit is up for grabs
 
