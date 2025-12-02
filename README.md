@@ -12,8 +12,6 @@ I started to think outside the box: How can I do this better with a reasonable b
 
 After a few prototypes I landed in a solution where a control assembly is mounted on a chair. The prototypes proved that adequate control was feasible with surprisingly good flight control dynamics: you tend to forget that you are in a simulator when using a VR-headset. 
 
-The chair should not only be for fun but it should also be useful in the activities of flying clubs. Therefore, the chair has been equipped with an option for dual control to help noobs into the gospel of gliding. That is also what distinguishes this build from all the other simulator chairs on the web. At least the ones I have found.
-
 _The first example in the prototype series during flight trials._
 
 <img width="601" height="899" alt="image" src="https://github.com/user-attachments/assets/83c536aa-28df-4f15-b2c4-e160d5fb6d0e" />
