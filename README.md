@@ -12,7 +12,14 @@ I started to think outside the box: How can I do this better with a reasonable b
 
 After a few prototypes I landed in a solution where a control assembly is mounted on a chair. The prototypes proved that adequate control was feasible with surprisingly good flight control dynamics: you tend to forget that you are in a simulator when using a VR-headset. 
 
-_The first example in the prototype series are being built._
+_The first example in the prototype series during flight trials._
+
+<img width="601" height="899" alt="image" src="https://github.com/user-attachments/assets/83c536aa-28df-4f15-b2c4-e160d5fb6d0e" />
+
+<img width="597" height="953" alt="image" src="https://github.com/user-attachments/assets/871fc983-c38c-49df-96b2-c9045726c54c" />
+
+
+_The first example in the prototype series being built._
 
 <img width="1016" height="752" alt="image" src="https://github.com/user-attachments/assets/b5d94185-3a58-4a31-8407-589cfec274f9" />
 
