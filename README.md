@@ -2,17 +2,17 @@
 
 ## Abstract 
 
-This is an open source simulator project where an IKEA chair has been modified into a dual control joystick. The primary purpose is to offer a possibility to train students in for example Condor gliding flight simulatior. From the basic flight training, to fine tuning the art thermalling and cross country. All in reach for the reasonable DIY-handy individual.
+This is an open source simulator project where an IKEA chair has been modified into a dual control joystick. The primary purpose is to provide students with an opportunity to train, for example, using Condor gliding simulator. From the basic flight training, to fine tuning the art thermalling and cross country. All in reach for the reasonable DIY-handy individual.
 
-Note that the chair can easily be used for both motor and rotorcraft as well: you simply tighten the wing nut and neutralize the spring that simulates the gliders air brake return force.
+Note that the chair can easily be used for both motor and rotorcraft as well: you simply tighten the wing nut and neutralize the spring that simulates the glider´s air brake return force.
 
 ## Background
 
-This project is sprung from the disappointment of using a joystick bought from an electronics store for 120€. Being a glider pilot for the last +30 years I do become annoyed when I can´t catch the thermals properly in the Condor gliding simulator. Or at least I blamed the joystick.
+This project is sprang from the disappointment of using a joystick bought from an electronics store for 120€. Being a glider pilot for the last +30 years I do become annoyed when I can´t catch the thermals properly in the Condor gliding simulator. Or at least I blamed the joystick.
 
 I started to think outside the box: How can I do this better with a reasonable budget? This page is my answer to this question.
 
-After a few prototypes I landed in a solution where a control assembly is mounted on a chair. The prototypes proved that adequate control was feasible with surprisingly good flight control dynamics: you tend to forget that you are in a simulator when using a VR-headset. 
+After a few prototypes, I arrived at a solution where a control assembly is mounted on a chair. The prototypes proved that adequate control was feasible with surprisingly good flight control dynamics: you tend to forget that you are in a simulator when using a VR-headset. 
 
 _The first example in the prototype series during flight trials._
 
@@ -30,12 +30,12 @@ The second iteration is utilising an Arduino Micro and hall sensors for the flig
 The requirements for the simulator:
  - The parts shall be available in general stores (as far as possible)
  - A simple yet durable construction
- - Dual controlStick, rudder and airbrake
- - Airbrake shall be able to be used as throttle and collector after minor alteration
+ - Dual control: stick, rudder and airbrake
+ - Airbrake shall be able to be used as throttle and collective after minor alteration
  - Tow cable release
  - Position of pedals are adjustable
 
-## Current status of the project
+## Current project status
 
 The list of built YAS-chairs:
 - sn 001: ÖSFK at ESSZ, first prototype
@@ -48,10 +48,10 @@ Prototype series sn 003 - 010:
 - sn 006: Private, Forssa
 - sn 007: Private, Ludvika
 - sn 008: Borås Segelflygklubb
-- sn 009: kit is up for grabs
-- sn 010: kit is up for grabs
+- sn 009: kit available
+- sn 010: kit availablelstick
 
-_The assembly process of sn 003. For pictures on a sort of a timeline, se assembly.pfd above._
+_The assembly process of sn 003. For pictures in a sort of a timeline, se assembly.pfd above._
 <img width="481" height="854" alt="image" src="https://github.com/user-attachments/assets/f163b148-2dcc-4f8e-91e0-5734e16dccc2" />
 <img width="305" height="532" alt="image" src="https://github.com/user-attachments/assets/2284d8a0-796f-483f-a077-d60aafe0333a" />
 <img width="789" height="510" alt="image" src="https://github.com/user-attachments/assets/803f7f0f-4ac7-4361-8a9e-5502e29e9eb2" />
@@ -74,14 +74,14 @@ _Airbrake and tow release of second prototype, sn 002._
 
 The electronics and software package that will simulate a joystick using the built-in drivers in Windows. Either you can get the stuff in the bill of materials, put things together and apply the Arduino libraries. Or feel free to use it as a creative compass for your own build.
 
-The skill level required is an average glider pilot with limited soldering skill. After all this aren’t rocket science, just simulator sience.
+The skill level required is an average glider pilot with limited soldering skill. After all this aren’t rocket science, just simulator science.
 
-The electronics and software package contains of:
+The electronics and software package contains:
  - Design schematic (open source) for Arduino Leonardo or Arduino Micro (ATMEGA32U4)
  - Software and libraries (open source)
  - Bill of material for recommended components to order 
 
-Please note: firstI used potentiometers which broke pretty much instantly. Since then hall sensors are used which works excellent. So, if you are opting for potentiometers, please be aware of the potential limitations.
+Please note: At first, I used potentiometers which broke pretty much instantly. Since then hall sensors are used which works excellently. So, if you are opting for potentiometers, please be aware of the potential limitations.
 
 To make things easier I have developed a bespoke PCB-adaptor between Arduino and electrical connectors as well as a bespoke PCB-adaptor for the hall sensors recommended in the bill of material. Eventually you will be able to order these PCB´s.
 
@@ -99,7 +99,7 @@ _PCB-adaptor for Arduino Leonardo or Arduino Micro. The picture shows a PCB with
 
 The flight control assembly is designed to fit onto a [POÄNG](https://www.ikea.com/se/sv/cat/poaeng-serie-07472/) from IKEA. Please see the blue prints in the DXF-folder in the file repository above for the pieces to cut out. Above you will also find a list of material to buy in the local hardware store (hinges, washers, nuts, screws, bicycle parts etc.)
 
-We plan to offer a kit with CNC-cutout parts from plywood but this is progress right now. Meanwhile, if you have access to a CNC-machine or a laser cutter, please feel free to download the DXF-files and make simulator youself.
+We plan to offer a kit with CNC-cutout parts from plywood but this is progress right now. Meanwhile, if you have access to a CNC machine or a laser cutter, please feel free to download the DXF files and make simulator youself.
 
 
 _The chair with the flight control assembly mounted to POÄNG. View from the side._
@@ -122,7 +122,7 @@ _Below are some of the mounting instructions._
 
 Installing the electronics
 
-In order to install the hall sensors, a few 3D printed items has been developed. Please find the STL-files in the above repository. 
+In order to install the hall sensors, a few 3D printed items have been developed. Please find the STL-files in the above repository. 
 
 
 _The holder for the Hall-sensor, arm, link and bracket._
@@ -145,4 +145,4 @@ _An overview of the parts to print._
 ![image](https://github.com/user-attachments/assets/2232b4db-af97-4446-830b-79d78d8e8029)
 
 
-So stay tuned ....
+Stay tuned ....
