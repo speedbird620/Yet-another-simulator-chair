@@ -39,7 +39,9 @@ The requirements for the simulator:
 
 The list of built YAS-chairs:
 - sn 001: ÖSFK at ESSZ, first prototype
-- sn 002: Private outside Långtora, second prototype
+- sn 002: Private outside Långtora, second prototype.
+
+Follow the progress of sn 002 here: https://photos.google.com/share/AF1QipPOUyROssQ330J8llb0_tj2pAIGFBXjLDJpcaH-N3GVbZG6ntuDcigQtvq15HF2ng?key=RnROV0hyNy1SeGdMWDh3Vm5kUEUtbWtrZnJ5UWRn
 
 Prototype series sn 003 - 010:
 - sn 003: Swedish Soaring Federation, Ålleberg
@@ -49,7 +51,7 @@ Prototype series sn 003 - 010:
 - sn 007: Private, Ludvika
 - sn 008: Borås Segelflygklubb
 - sn 009: kit available
-- sn 010: kit availablelstick
+- sn 010: kit availablel
 
 _The assembly process of sn 003. For pictures in a sort of a timeline, se assembly.pfd above._
 <img width="481" height="854" alt="image" src="https://github.com/user-attachments/assets/f163b148-2dcc-4f8e-91e0-5734e16dccc2" />
